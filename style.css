@@ -1,0 +1,68 @@
+body {
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header {
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 1em;
+}
+
+main {
+   padding: 20px;
+}
+
+form {
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+label {
+   display: block;
+   margin-bottom: 10px;
+}
+
+input {
+   width: 100%;
+   padding: 8px;
+   margin-top: 4px;
+   margin-bottom: 10px;
+   box-sizing: border-box;
+}
+
+button {
+   padding: 10px;
+   background-color: #333;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+li {
+   margin-bottom: 10px;
+}
+
+/* Media query para telas menores */
+@media screen and (max-width: 600px) {
+   body {
+       font-size: 14px;
+   }
+
+   label {
+       font-size: 16px;
+   }
+
+   input {
+       font-size: 16px;
+   }
+}
